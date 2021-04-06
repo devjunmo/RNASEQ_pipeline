@@ -1,0 +1,446 @@
+Mar 15 09:16:49 ..... started STAR run
+Mar 15 09:16:49 ... starting to generate Genome files
+Mar 15 09:17:41 ..... processing annotations GTF
+Mar 15 09:19:10 ..... started STAR run
+Mar 15 09:19:10 ... starting to generate Genome files
+Mar 15 09:20:02 ..... processing annotations GTF
+Mar 15 09:20:30 ... starting to sort Suffix Array. This may take a long time...
+Mar 15 09:20:47 ... sorting Suffix Array chunks and saving them to disk...
+Mar 15 09:36:37 ... loading chunks from disk, packing SA...
+Mar 15 09:37:59 ... finished generating suffix array
+Mar 15 09:37:59 ... generating Suffix Array index
+Mar 15 09:42:51 ... completed Suffix Array index
+Mar 15 09:42:52 ..... inserting junctions into the genome indices
+Mar 15 09:46:25 ... writing Genome to disk ...
+Mar 15 09:46:26 ... writing Suffix Array to disk ...
+Mar 15 09:46:52 ... writing SAindex to disk
+Mar 15 09:46:57 ..... finished successfully
+generateStarRefGen.sh: line 34: source: deactivate: file not found
+Mar 15 19:04:04 ..... started STAR run
+Mar 15 19:04:04 ..... loading genome
+Mar 15 19:04:27 ..... started mapping
+Mar 15 19:19:22 ..... finished mapping
+Mar 15 19:19:28 ..... started sorting BAM
+Mar 15 19:21:03 ..... finished successfully
+mappingStarPE.sh: line 56: source: deactivate: file not found
+Started analysis of Teratoma-13_1.fastq.gz
+Approx 5% complete for Teratoma-13_1.fastq.gz
+Approx 10% complete for Teratoma-13_1.fastq.gz
+Approx 15% complete for Teratoma-13_1.fastq.gz
+Approx 20% complete for Teratoma-13_1.fastq.gz
+Approx 25% complete for Teratoma-13_1.fastq.gz
+Approx 30% complete for Teratoma-13_1.fastq.gz
+Approx 35% complete for Teratoma-13_1.fastq.gz
+Approx 40% complete for Teratoma-13_1.fastq.gz
+Approx 45% complete for Teratoma-13_1.fastq.gz
+Approx 50% complete for Teratoma-13_1.fastq.gz
+Approx 55% complete for Teratoma-13_1.fastq.gz
+Approx 60% complete for Teratoma-13_1.fastq.gz
+Approx 65% complete for Teratoma-13_1.fastq.gz
+Approx 70% complete for Teratoma-13_1.fastq.gz
+Approx 75% complete for Teratoma-13_1.fastq.gz
+Approx 80% complete for Teratoma-13_1.fastq.gz
+Approx 85% complete for Teratoma-13_1.fastq.gz
+Approx 90% complete for Teratoma-13_1.fastq.gz
+Approx 95% complete for Teratoma-13_1.fastq.gz
+Analysis complete for Teratoma-13_1.fastq.gz
+Started analysis of Teratoma-13_2.fastq.gz
+Approx 5% complete for Teratoma-13_2.fastq.gz
+Approx 10% complete for Teratoma-13_2.fastq.gz
+Approx 15% complete for Teratoma-13_2.fastq.gz
+Approx 20% complete for Teratoma-13_2.fastq.gz
+Approx 25% complete for Teratoma-13_2.fastq.gz
+Approx 30% complete for Teratoma-13_2.fastq.gz
+Approx 35% complete for Teratoma-13_2.fastq.gz
+Approx 40% complete for Teratoma-13_2.fastq.gz
+Approx 45% complete for Teratoma-13_2.fastq.gz
+Approx 50% complete for Teratoma-13_2.fastq.gz
+Approx 55% complete for Teratoma-13_2.fastq.gz
+Approx 60% complete for Teratoma-13_2.fastq.gz
+Approx 65% complete for Teratoma-13_2.fastq.gz
+Approx 70% complete for Teratoma-13_2.fastq.gz
+Approx 75% complete for Teratoma-13_2.fastq.gz
+Approx 80% complete for Teratoma-13_2.fastq.gz
+Approx 85% complete for Teratoma-13_2.fastq.gz
+Approx 90% complete for Teratoma-13_2.fastq.gz
+Approx 95% complete for Teratoma-13_2.fastq.gz
+Analysis complete for Teratoma-13_2.fastq.gz
+Started analysis of Teratoma-14_1.fastq.gz
+Approx 5% complete for Teratoma-14_1.fastq.gz
+Approx 10% complete for Teratoma-14_1.fastq.gz
+Approx 15% complete for Teratoma-14_1.fastq.gz
+Approx 20% complete for Teratoma-14_1.fastq.gz
+Approx 25% complete for Teratoma-14_1.fastq.gz
+Approx 30% complete for Teratoma-14_1.fastq.gz
+Approx 35% complete for Teratoma-14_1.fastq.gz
+Approx 40% complete for Teratoma-14_1.fastq.gz
+Approx 45% complete for Teratoma-14_1.fastq.gz
+Approx 50% complete for Teratoma-14_1.fastq.gz
+Approx 55% complete for Teratoma-14_1.fastq.gz
+Approx 60% complete for Teratoma-14_1.fastq.gz
+Approx 65% complete for Teratoma-14_1.fastq.gz
+Approx 70% complete for Teratoma-14_1.fastq.gz
+Approx 75% complete for Teratoma-14_1.fastq.gz
+Approx 80% complete for Teratoma-14_1.fastq.gz
+Approx 85% complete for Teratoma-14_1.fastq.gz
+Approx 90% complete for Teratoma-14_1.fastq.gz
+Approx 95% complete for Teratoma-14_1.fastq.gz
+Analysis complete for Teratoma-14_1.fastq.gz
+Started analysis of Teratoma-14_2.fastq.gz
+Approx 5% complete for Teratoma-14_2.fastq.gz
+Approx 10% complete for Teratoma-14_2.fastq.gz
+Approx 15% complete for Teratoma-14_2.fastq.gz
+Approx 20% complete for Teratoma-14_2.fastq.gz
+Approx 25% complete for Teratoma-14_2.fastq.gz
+Approx 30% complete for Teratoma-14_2.fastq.gz
+Approx 35% complete for Teratoma-14_2.fastq.gz
+Approx 40% complete for Teratoma-14_2.fastq.gz
+Approx 45% complete for Teratoma-14_2.fastq.gz
+Approx 50% complete for Teratoma-14_2.fastq.gz
+Approx 55% complete for Teratoma-14_2.fastq.gz
+Approx 60% complete for Teratoma-14_2.fastq.gz
+Approx 65% complete for Teratoma-14_2.fastq.gz
+Approx 70% complete for Teratoma-14_2.fastq.gz
+Approx 75% complete for Teratoma-14_2.fastq.gz
+Approx 80% complete for Teratoma-14_2.fastq.gz
+Approx 85% complete for Teratoma-14_2.fastq.gz
+Approx 90% complete for Teratoma-14_2.fastq.gz
+Approx 95% complete for Teratoma-14_2.fastq.gz
+Analysis complete for Teratoma-14_2.fastq.gz
+Started analysis of Teratoma-15_1.fastq.gz
+Approx 5% complete for Teratoma-15_1.fastq.gz
+Approx 10% complete for Teratoma-15_1.fastq.gz
+Approx 15% complete for Teratoma-15_1.fastq.gz
+Approx 20% complete for Teratoma-15_1.fastq.gz
+Approx 25% complete for Teratoma-15_1.fastq.gz
+Approx 30% complete for Teratoma-15_1.fastq.gz
+Approx 35% complete for Teratoma-15_1.fastq.gz
+Approx 40% complete for Teratoma-15_1.fastq.gz
+Approx 45% complete for Teratoma-15_1.fastq.gz
+Approx 50% complete for Teratoma-15_1.fastq.gz
+Approx 55% complete for Teratoma-15_1.fastq.gz
+Approx 60% complete for Teratoma-15_1.fastq.gz
+Approx 65% complete for Teratoma-15_1.fastq.gz
+Approx 70% complete for Teratoma-15_1.fastq.gz
+Approx 75% complete for Teratoma-15_1.fastq.gz
+Approx 80% complete for Teratoma-15_1.fastq.gz
+Approx 85% complete for Teratoma-15_1.fastq.gz
+Approx 90% complete for Teratoma-15_1.fastq.gz
+Approx 95% complete for Teratoma-15_1.fastq.gz
+Analysis complete for Teratoma-15_1.fastq.gz
+Started analysis of Teratoma-15_2.fastq.gz
+Approx 5% complete for Teratoma-15_2.fastq.gz
+Approx 10% complete for Teratoma-15_2.fastq.gz
+Approx 15% complete for Teratoma-15_2.fastq.gz
+Approx 20% complete for Teratoma-15_2.fastq.gz
+Approx 25% complete for Teratoma-15_2.fastq.gz
+Approx 30% complete for Teratoma-15_2.fastq.gz
+Approx 35% complete for Teratoma-15_2.fastq.gz
+Approx 40% complete for Teratoma-15_2.fastq.gz
+Approx 45% complete for Teratoma-15_2.fastq.gz
+Approx 50% complete for Teratoma-15_2.fastq.gz
+Approx 55% complete for Teratoma-15_2.fastq.gz
+Approx 60% complete for Teratoma-15_2.fastq.gz
+Approx 65% complete for Teratoma-15_2.fastq.gz
+Approx 70% complete for Teratoma-15_2.fastq.gz
+Approx 75% complete for Teratoma-15_2.fastq.gz
+Approx 80% complete for Teratoma-15_2.fastq.gz
+Approx 85% complete for Teratoma-15_2.fastq.gz
+Approx 90% complete for Teratoma-15_2.fastq.gz
+Approx 95% complete for Teratoma-15_2.fastq.gz
+Analysis complete for Teratoma-15_2.fastq.gz
+Started analysis of Teratoma-19_1.fastq.gz
+Approx 5% complete for Teratoma-19_1.fastq.gz
+Approx 10% complete for Teratoma-19_1.fastq.gz
+Approx 15% complete for Teratoma-19_1.fastq.gz
+Approx 20% complete for Teratoma-19_1.fastq.gz
+Approx 25% complete for Teratoma-19_1.fastq.gz
+Approx 30% complete for Teratoma-19_1.fastq.gz
+Approx 35% complete for Teratoma-19_1.fastq.gz
+Approx 40% complete for Teratoma-19_1.fastq.gz
+Approx 45% complete for Teratoma-19_1.fastq.gz
+Approx 50% complete for Teratoma-19_1.fastq.gz
+Approx 55% complete for Teratoma-19_1.fastq.gz
+Approx 60% complete for Teratoma-19_1.fastq.gz
+Approx 65% complete for Teratoma-19_1.fastq.gz
+Approx 70% complete for Teratoma-19_1.fastq.gz
+Approx 75% complete for Teratoma-19_1.fastq.gz
+Approx 80% complete for Teratoma-19_1.fastq.gz
+Approx 85% complete for Teratoma-19_1.fastq.gz
+Approx 90% complete for Teratoma-19_1.fastq.gz
+Approx 95% complete for Teratoma-19_1.fastq.gz
+Analysis complete for Teratoma-19_1.fastq.gz
+Started analysis of Teratoma-19_2.fastq.gz
+Approx 5% complete for Teratoma-19_2.fastq.gz
+Approx 10% complete for Teratoma-19_2.fastq.gz
+Approx 15% complete for Teratoma-19_2.fastq.gz
+Approx 20% complete for Teratoma-19_2.fastq.gz
+Approx 25% complete for Teratoma-19_2.fastq.gz
+Approx 30% complete for Teratoma-19_2.fastq.gz
+Approx 35% complete for Teratoma-19_2.fastq.gz
+Approx 40% complete for Teratoma-19_2.fastq.gz
+Approx 45% complete for Teratoma-19_2.fastq.gz
+Approx 50% complete for Teratoma-19_2.fastq.gz
+Approx 55% complete for Teratoma-19_2.fastq.gz
+Approx 60% complete for Teratoma-19_2.fastq.gz
+Approx 65% complete for Teratoma-19_2.fastq.gz
+Approx 70% complete for Teratoma-19_2.fastq.gz
+Approx 75% complete for Teratoma-19_2.fastq.gz
+Approx 80% complete for Teratoma-19_2.fastq.gz
+Approx 85% complete for Teratoma-19_2.fastq.gz
+Approx 90% complete for Teratoma-19_2.fastq.gz
+Approx 95% complete for Teratoma-19_2.fastq.gz
+Analysis complete for Teratoma-19_2.fastq.gz
+Started analysis of Teratoma-20_1.fastq.gz
+Approx 5% complete for Teratoma-20_1.fastq.gz
+Approx 10% complete for Teratoma-20_1.fastq.gz
+Approx 15% complete for Teratoma-20_1.fastq.gz
+Approx 20% complete for Teratoma-20_1.fastq.gz
+Approx 25% complete for Teratoma-20_1.fastq.gz
+Approx 30% complete for Teratoma-20_1.fastq.gz
+Approx 35% complete for Teratoma-20_1.fastq.gz
+Approx 40% complete for Teratoma-20_1.fastq.gz
+Approx 45% complete for Teratoma-20_1.fastq.gz
+Approx 50% complete for Teratoma-20_1.fastq.gz
+Approx 55% complete for Teratoma-20_1.fastq.gz
+Approx 60% complete for Teratoma-20_1.fastq.gz
+Approx 65% complete for Teratoma-20_1.fastq.gz
+Approx 70% complete for Teratoma-20_1.fastq.gz
+Approx 75% complete for Teratoma-20_1.fastq.gz
+Approx 80% complete for Teratoma-20_1.fastq.gz
+Approx 85% complete for Teratoma-20_1.fastq.gz
+Approx 90% complete for Teratoma-20_1.fastq.gz
+Approx 95% complete for Teratoma-20_1.fastq.gz
+Analysis complete for Teratoma-20_1.fastq.gz
+Started analysis of Teratoma-20_2.fastq.gz
+Approx 5% complete for Teratoma-20_2.fastq.gz
+Approx 10% complete for Teratoma-20_2.fastq.gz
+Approx 15% complete for Teratoma-20_2.fastq.gz
+Approx 20% complete for Teratoma-20_2.fastq.gz
+Approx 25% complete for Teratoma-20_2.fastq.gz
+Approx 30% complete for Teratoma-20_2.fastq.gz
+Approx 35% complete for Teratoma-20_2.fastq.gz
+Approx 40% complete for Teratoma-20_2.fastq.gz
+Approx 45% complete for Teratoma-20_2.fastq.gz
+Approx 50% complete for Teratoma-20_2.fastq.gz
+Approx 55% complete for Teratoma-20_2.fastq.gz
+Approx 60% complete for Teratoma-20_2.fastq.gz
+Approx 65% complete for Teratoma-20_2.fastq.gz
+Approx 70% complete for Teratoma-20_2.fastq.gz
+Approx 75% complete for Teratoma-20_2.fastq.gz
+Approx 80% complete for Teratoma-20_2.fastq.gz
+Approx 85% complete for Teratoma-20_2.fastq.gz
+Approx 90% complete for Teratoma-20_2.fastq.gz
+Approx 95% complete for Teratoma-20_2.fastq.gz
+Analysis complete for Teratoma-20_2.fastq.gz
+Started analysis of Teratoma-24_1.fastq.gz
+Approx 5% complete for Teratoma-24_1.fastq.gz
+Approx 10% complete for Teratoma-24_1.fastq.gz
+Approx 15% complete for Teratoma-24_1.fastq.gz
+Approx 20% complete for Teratoma-24_1.fastq.gz
+Approx 25% complete for Teratoma-24_1.fastq.gz
+Approx 30% complete for Teratoma-24_1.fastq.gz
+Approx 35% complete for Teratoma-24_1.fastq.gz
+Approx 40% complete for Teratoma-24_1.fastq.gz
+Approx 45% complete for Teratoma-24_1.fastq.gz
+Approx 50% complete for Teratoma-24_1.fastq.gz
+Approx 55% complete for Teratoma-24_1.fastq.gz
+Approx 60% complete for Teratoma-24_1.fastq.gz
+Approx 65% complete for Teratoma-24_1.fastq.gz
+Approx 70% complete for Teratoma-24_1.fastq.gz
+Approx 75% complete for Teratoma-24_1.fastq.gz
+Approx 80% complete for Teratoma-24_1.fastq.gz
+Approx 85% complete for Teratoma-24_1.fastq.gz
+Approx 90% complete for Teratoma-24_1.fastq.gz
+Approx 95% complete for Teratoma-24_1.fastq.gz
+Analysis complete for Teratoma-24_1.fastq.gz
+Started analysis of Teratoma-24_2.fastq.gz
+Approx 5% complete for Teratoma-24_2.fastq.gz
+Approx 10% complete for Teratoma-24_2.fastq.gz
+Approx 15% complete for Teratoma-24_2.fastq.gz
+Approx 20% complete for Teratoma-24_2.fastq.gz
+Approx 25% complete for Teratoma-24_2.fastq.gz
+Approx 30% complete for Teratoma-24_2.fastq.gz
+Approx 35% complete for Teratoma-24_2.fastq.gz
+Approx 40% complete for Teratoma-24_2.fastq.gz
+Approx 45% complete for Teratoma-24_2.fastq.gz
+Approx 50% complete for Teratoma-24_2.fastq.gz
+Approx 55% complete for Teratoma-24_2.fastq.gz
+Approx 60% complete for Teratoma-24_2.fastq.gz
+Approx 65% complete for Teratoma-24_2.fastq.gz
+Approx 70% complete for Teratoma-24_2.fastq.gz
+Approx 75% complete for Teratoma-24_2.fastq.gz
+Approx 80% complete for Teratoma-24_2.fastq.gz
+Approx 85% complete for Teratoma-24_2.fastq.gz
+Approx 90% complete for Teratoma-24_2.fastq.gz
+Approx 95% complete for Teratoma-24_2.fastq.gz
+Analysis complete for Teratoma-24_2.fastq.gz
+Started analysis of Teratoma-25_1.fastq.gz
+Approx 5% complete for Teratoma-25_1.fastq.gz
+Approx 10% complete for Teratoma-25_1.fastq.gz
+Approx 15% complete for Teratoma-25_1.fastq.gz
+Approx 20% complete for Teratoma-25_1.fastq.gz
+Approx 25% complete for Teratoma-25_1.fastq.gz
+Approx 30% complete for Teratoma-25_1.fastq.gz
+Approx 35% complete for Teratoma-25_1.fastq.gz
+Approx 40% complete for Teratoma-25_1.fastq.gz
+Approx 45% complete for Teratoma-25_1.fastq.gz
+Approx 50% complete for Teratoma-25_1.fastq.gz
+Approx 55% complete for Teratoma-25_1.fastq.gz
+Approx 60% complete for Teratoma-25_1.fastq.gz
+Approx 65% complete for Teratoma-25_1.fastq.gz
+Approx 70% complete for Teratoma-25_1.fastq.gz
+Approx 75% complete for Teratoma-25_1.fastq.gz
+Approx 80% complete for Teratoma-25_1.fastq.gz
+Approx 85% complete for Teratoma-25_1.fastq.gz
+Approx 90% complete for Teratoma-25_1.fastq.gz
+Approx 95% complete for Teratoma-25_1.fastq.gz
+Analysis complete for Teratoma-25_1.fastq.gz
+Started analysis of Teratoma-25_2.fastq.gz
+Approx 5% complete for Teratoma-25_2.fastq.gz
+Approx 10% complete for Teratoma-25_2.fastq.gz
+Approx 15% complete for Teratoma-25_2.fastq.gz
+Approx 20% complete for Teratoma-25_2.fastq.gz
+Approx 25% complete for Teratoma-25_2.fastq.gz
+Approx 30% complete for Teratoma-25_2.fastq.gz
+Approx 35% complete for Teratoma-25_2.fastq.gz
+Approx 40% complete for Teratoma-25_2.fastq.gz
+Approx 45% complete for Teratoma-25_2.fastq.gz
+Approx 50% complete for Teratoma-25_2.fastq.gz
+Approx 55% complete for Teratoma-25_2.fastq.gz
+Approx 60% complete for Teratoma-25_2.fastq.gz
+Approx 65% complete for Teratoma-25_2.fastq.gz
+Approx 70% complete for Teratoma-25_2.fastq.gz
+Approx 75% complete for Teratoma-25_2.fastq.gz
+Approx 80% complete for Teratoma-25_2.fastq.gz
+Approx 85% complete for Teratoma-25_2.fastq.gz
+Approx 90% complete for Teratoma-25_2.fastq.gz
+Approx 95% complete for Teratoma-25_2.fastq.gz
+Analysis complete for Teratoma-25_2.fastq.gz
+Started analysis of Teratoma-26_1.fastq.gz
+Approx 5% complete for Teratoma-26_1.fastq.gz
+Approx 10% complete for Teratoma-26_1.fastq.gz
+Approx 15% complete for Teratoma-26_1.fastq.gz
+Approx 20% complete for Teratoma-26_1.fastq.gz
+Approx 25% complete for Teratoma-26_1.fastq.gz
+Approx 30% complete for Teratoma-26_1.fastq.gz
+Approx 35% complete for Teratoma-26_1.fastq.gz
+Approx 40% complete for Teratoma-26_1.fastq.gz
+Approx 45% complete for Teratoma-26_1.fastq.gz
+Approx 50% complete for Teratoma-26_1.fastq.gz
+Approx 55% complete for Teratoma-26_1.fastq.gz
+Approx 60% complete for Teratoma-26_1.fastq.gz
+Approx 65% complete for Teratoma-26_1.fastq.gz
+Approx 70% complete for Teratoma-26_1.fastq.gz
+Approx 75% complete for Teratoma-26_1.fastq.gz
+Approx 80% complete for Teratoma-26_1.fastq.gz
+Approx 85% complete for Teratoma-26_1.fastq.gz
+Approx 90% complete for Teratoma-26_1.fastq.gz
+Approx 95% complete for Teratoma-26_1.fastq.gz
+Analysis complete for Teratoma-26_1.fastq.gz
+Started analysis of Teratoma-26_2.fastq.gz
+Approx 5% complete for Teratoma-26_2.fastq.gz
+Approx 10% complete for Teratoma-26_2.fastq.gz
+Approx 15% complete for Teratoma-26_2.fastq.gz
+Approx 20% complete for Teratoma-26_2.fastq.gz
+Approx 25% complete for Teratoma-26_2.fastq.gz
+Approx 30% complete for Teratoma-26_2.fastq.gz
+Approx 35% complete for Teratoma-26_2.fastq.gz
+Approx 40% complete for Teratoma-26_2.fastq.gz
+Approx 45% complete for Teratoma-26_2.fastq.gz
+Approx 50% complete for Teratoma-26_2.fastq.gz
+Approx 55% complete for Teratoma-26_2.fastq.gz
+Approx 60% complete for Teratoma-26_2.fastq.gz
+Approx 65% complete for Teratoma-26_2.fastq.gz
+Approx 70% complete for Teratoma-26_2.fastq.gz
+Approx 75% complete for Teratoma-26_2.fastq.gz
+Approx 80% complete for Teratoma-26_2.fastq.gz
+Approx 85% complete for Teratoma-26_2.fastq.gz
+Approx 90% complete for Teratoma-26_2.fastq.gz
+Approx 95% complete for Teratoma-26_2.fastq.gz
+Analysis complete for Teratoma-26_2.fastq.gz
+Started analysis of Teratoma-4_1.fastq.gz
+Approx 5% complete for Teratoma-4_1.fastq.gz
+Approx 10% complete for Teratoma-4_1.fastq.gz
+Approx 15% complete for Teratoma-4_1.fastq.gz
+Approx 20% complete for Teratoma-4_1.fastq.gz
+Approx 25% complete for Teratoma-4_1.fastq.gz
+Approx 30% complete for Teratoma-4_1.fastq.gz
+Approx 35% complete for Teratoma-4_1.fastq.gz
+Approx 40% complete for Teratoma-4_1.fastq.gz
+Approx 45% complete for Teratoma-4_1.fastq.gz
+Approx 50% complete for Teratoma-4_1.fastq.gz
+Approx 55% complete for Teratoma-4_1.fastq.gz
+Approx 60% complete for Teratoma-4_1.fastq.gz
+Approx 65% complete for Teratoma-4_1.fastq.gz
+Approx 70% complete for Teratoma-4_1.fastq.gz
+Approx 75% complete for Teratoma-4_1.fastq.gz
+Approx 80% complete for Teratoma-4_1.fastq.gz
+Approx 85% complete for Teratoma-4_1.fastq.gz
+Approx 90% complete for Teratoma-4_1.fastq.gz
+Approx 95% complete for Teratoma-4_1.fastq.gz
+Analysis complete for Teratoma-4_1.fastq.gz
+Started analysis of Teratoma-4_2.fastq.gz
+Approx 5% complete for Teratoma-4_2.fastq.gz
+Approx 10% complete for Teratoma-4_2.fastq.gz
+Approx 15% complete for Teratoma-4_2.fastq.gz
+Approx 20% complete for Teratoma-4_2.fastq.gz
+Approx 25% complete for Teratoma-4_2.fastq.gz
+Approx 30% complete for Teratoma-4_2.fastq.gz
+Approx 35% complete for Teratoma-4_2.fastq.gz
+Approx 40% complete for Teratoma-4_2.fastq.gz
+Approx 45% complete for Teratoma-4_2.fastq.gz
+Approx 50% complete for Teratoma-4_2.fastq.gz
+Approx 55% complete for Teratoma-4_2.fastq.gz
+Approx 60% complete for Teratoma-4_2.fastq.gz
+Approx 65% complete for Teratoma-4_2.fastq.gz
+Approx 70% complete for Teratoma-4_2.fastq.gz
+Approx 75% complete for Teratoma-4_2.fastq.gz
+Approx 80% complete for Teratoma-4_2.fastq.gz
+Approx 85% complete for Teratoma-4_2.fastq.gz
+Approx 90% complete for Teratoma-4_2.fastq.gz
+Approx 95% complete for Teratoma-4_2.fastq.gz
+Analysis complete for Teratoma-4_2.fastq.gz
+Started analysis of Teratoma-6_1.fastq.gz
+Approx 5% complete for Teratoma-6_1.fastq.gz
+Approx 10% complete for Teratoma-6_1.fastq.gz
+Approx 15% complete for Teratoma-6_1.fastq.gz
+Approx 20% complete for Teratoma-6_1.fastq.gz
+Approx 25% complete for Teratoma-6_1.fastq.gz
+Approx 30% complete for Teratoma-6_1.fastq.gz
+Approx 35% complete for Teratoma-6_1.fastq.gz
+Approx 40% complete for Teratoma-6_1.fastq.gz
+Approx 45% complete for Teratoma-6_1.fastq.gz
+Approx 50% complete for Teratoma-6_1.fastq.gz
+Approx 55% complete for Teratoma-6_1.fastq.gz
+Approx 60% complete for Teratoma-6_1.fastq.gz
+Approx 65% complete for Teratoma-6_1.fastq.gz
+Approx 70% complete for Teratoma-6_1.fastq.gz
+Approx 75% complete for Teratoma-6_1.fastq.gz
+Approx 80% complete for Teratoma-6_1.fastq.gz
+Approx 85% complete for Teratoma-6_1.fastq.gz
+Approx 90% complete for Teratoma-6_1.fastq.gz
+Approx 95% complete for Teratoma-6_1.fastq.gz
+Analysis complete for Teratoma-6_1.fastq.gz
+Started analysis of Teratoma-6_2.fastq.gz
+Approx 5% complete for Teratoma-6_2.fastq.gz
+Approx 10% complete for Teratoma-6_2.fastq.gz
+Approx 15% complete for Teratoma-6_2.fastq.gz
+Approx 20% complete for Teratoma-6_2.fastq.gz
+Approx 25% complete for Teratoma-6_2.fastq.gz
+Approx 30% complete for Teratoma-6_2.fastq.gz
+Approx 35% complete for Teratoma-6_2.fastq.gz
+Approx 40% complete for Teratoma-6_2.fastq.gz
+Approx 45% complete for Teratoma-6_2.fastq.gz
+Approx 50% complete for Teratoma-6_2.fastq.gz
+Approx 55% complete for Teratoma-6_2.fastq.gz
+Approx 60% complete for Teratoma-6_2.fastq.gz
+Approx 65% complete for Teratoma-6_2.fastq.gz
+Approx 70% complete for Teratoma-6_2.fastq.gz
+Approx 75% complete for Teratoma-6_2.fastq.gz
+Approx 80% complete for Teratoma-6_2.fastq.gz
+Approx 85% complete for Teratoma-6_2.fastq.gz
+Approx 90% complete for Teratoma-6_2.fastq.gz
+Approx 95% complete for Teratoma-6_2.fastq.gz
+Analysis complete for Teratoma-6_2.fastq.gz
+fastqc_loop.sh: line 21: source: deactivate: file not found
