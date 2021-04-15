@@ -10,7 +10,9 @@ bam_file=$1
 gtf_file=$2
 output_path=$3
 
- 
+
+source activate star
+
 htseq-count\
     -i gene_name \
     -s no \
@@ -18,3 +20,5 @@ htseq-count\
     $bam_file $gtf_file > $output_path
 
 sleep 10s
+
+conda deactivate

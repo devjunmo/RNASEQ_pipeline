@@ -48,7 +48,7 @@ def main(argv):
     global seq_type
 
     try:
-        opts, etc_args = getopt.getopt(argv[1:], "ha:b:n:p:i:R:L:y:", ["help", "readA=", "readB=", "readName=", "prefix=", "inputDir=",\
+        opts, etc_args = getopt.getopt(argv[1:], "ha:b:n:p:i:R:G:y:", ["help", "readA=", "readB=", "readName=", "prefix=", "inputDir=",\
             "ref=", "gtf=", "type="])
 
     except getopt.GetoptError:  # 옵션지정이 올바르지 않은 경우
@@ -111,6 +111,7 @@ while True:
 
 bam_file = output_prefix + r'Aligned.sortedByCoord.out.bam'
 count_dir = mapping_dir + r'count/'
+output_count = count_dir + read_name + '.count'
 
 if not os.path.isdir(count_dir):
     os.mkdir(count_dir)
@@ -119,7 +120,7 @@ while True:
     try:
         mapping_time = time.time()
         err_msg = f'An_error_occurred_in_htseq_count.sh:_Counting_reads_was_failed.{read_name}'
-        sp.check_call(fr'sh htseq_count.sh {bam_file} {GTF_FILE_PATH} {count_dir}', shell=True)
+        sp.check_call(fr'sh htseq_count.sh {bam_file} {GTF_FILE_PATH} {output_count}', shell=True)
         break
 
     except sp.CalledProcessError as e:
