@@ -31,7 +31,7 @@ output_prefix=$5
 # RG="@RG\tID:$output_prefix\tPL:illumina\tPU:ex\tLB:$output_prefix\tSM:$output_prefix"
  
 source activate star
-star\
+STAR\
     --genomeDir $star_genome\
     --readFilesIn $fastq1 $fastq2\
     --runThreadN $threads\
@@ -53,4 +53,4 @@ star\
     --quantMode TranscriptomeSAM\
     --readFilesCommand zcat
  
-source deactivate
+conda deactivate
