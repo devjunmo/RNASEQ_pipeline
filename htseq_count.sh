@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-if [ $# -lt 5 ]
+if [ $# -lt 3 ]
 then
     echo usage: $0 [bamFile] [gtfFile] [output_dir]
     exit 1

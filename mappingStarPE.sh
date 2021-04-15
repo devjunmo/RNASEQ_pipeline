@@ -2,30 +2,15 @@
 
 if [ $# -lt 5 ]
 then
-    echo usage: $0 [fastq1] [fastq2] [threads] [b37/hg38/...] [/path/to/output/dir/prefix]
+    echo usage: $0 [fastq1] [fastq2] [threads] [refGenomeDir] [/path/to/output/dir/prefix]
     exit 1
 fi
-
-case "$4" in
-    "b37")
-        star_genome=/home/jun9485/data/star_genome_b37
-    ;;
-    "hg38")
-        star_genome="PATH"
-    ;;
-    *)
-        echo "해당 파일 버전의 star ref-genome 없음. 경로를 확인하시오."
-        exit 1
-    ;;
-esac
-
 
  
 fastq1=$1
 fastq2=$2
 threads=$3
-# output_prefix=${1/_1.fastq.gz/.}
-#output_prefix=${1/.fastq/.}
+star_genome=$4
 output_prefix=$5
 
 # RG="@RG\tID:$output_prefix\tPL:illumina\tPU:ex\tLB:$output_prefix\tSM:$output_prefix"
