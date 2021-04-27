@@ -19,3 +19,4 @@ for path in ~/WES/HN00144124/Te*; do
     --noextract $path
 done
 source deactivate
+

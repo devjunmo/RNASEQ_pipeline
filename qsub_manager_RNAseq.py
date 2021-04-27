@@ -10,6 +10,7 @@ from time import sleep
 
 ####################### hyper parameters ########################################
 sample_group_name = 'RNASEQ_0415'
+
 is_making_input_list = True
 
 REF_GENOME_DIR = r'/home/jun9485/data/star_genome_b37'
@@ -17,8 +18,12 @@ GTF_path = r'/home/jun9485/data/GRch37_GTF/Homo_sapiens.GRCh37.87.gtf'
 
 seq_type = "RNA"
 
+# mode : pp, qc
+run_mode = 'qc' 
+
 # QC
-qc_output_path = 'pass'
+qc_output_dir = 'pass'
+qc_threads = 8
 
 INPUT_DIR = r'/home/jun9485/data/RNASEQ/RNAseq_0415/'   # 이 디렉토리에 계속 생성시킬것
 RAW_READS = r'*.fastq.gz'                                                         
@@ -55,15 +60,23 @@ print(input_path_list)
 exit(0) # path list 확인하고 싶으면 이거 풀기
 
 for i in range(path_len):
-    if i%2 == 0: # 짝수면
-        process = round(i/path_len, 2) * 100
-        print(f'{process}% 진행')
+    if run_mode == 'qc':
+        sp.call(f'fastqc -o {qc_output_dir} -t {qc_threads} --noextract {input_path_list[i]} &', shell=True)
+    elif run_mode == 'pp':
+        if i%2 == 0: # 짝수면
+            process = round(i/path_len, 2) * 100
+            print(f'{process}% 진행')
 
-        read1 = input_path_list[i]
-        read2 = input_path_list[i+1]
-        read_name = input_path_list[i].split('.')[-3].split(r'/')[-1].split(r'_')[-2] # Teratoma-13
-        prefix = INPUT_DIR + read_name
+            read1 = input_path_list[i]
+            read2 = input_path_list[i+1]
+            read_name = input_path_list[i].split('.')[-3].split(r'/')[-1].split(r'_')[-2] # Teratoma-13
+            prefix = INPUT_DIR + read_name
 
-        # "ha:b:n:p:i:", ["help", "readA=", "readB=", "readName=", "prefix=", "inputDir="]
-        sp.call(f'qsub ~/src/qsub.1 python processing_RNAseq.py -a {read1} -b {read2} -n {read_name} -p {prefix} -i {INPUT_DIR} \
-            -R {REF_GENOME_DIR} -G {GTF_path} -y {seq_type}', shell=True)
+            # "ha:b:n:p:i:", ["help", "readA=", "readB=", "readName=", "prefix=", "inputDir="]
+            sp.call(f'qsub ~/src/qsub.1 python processing_RNAseq.py -a {read1} -b {read2} -n {read_name} -p {prefix} -i {INPUT_DIR} \
+                -R {REF_GENOME_DIR} -G {GTF_path} -y {seq_type} &', shell=True)
+
+
+
+    
+        
