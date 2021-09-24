@@ -11,7 +11,7 @@ import os
 
 # 디버깅모드시 실행파일은 주석처리, 중간생성물 지우기 여부는 False처리, max_looping=1 처리!!
 
-THREADS = 1                                   
+THREADS = 2                           
 
 
 sorting_order = 'coordinate' # or queryname
@@ -101,7 +101,7 @@ while True:
         break
 
     except sp.CalledProcessError as e:
-        sp.call(f'sh write_log.sh {err_msg} {error_log_file}', shell=True)
+        # sp.call(f'sh write_log.sh {err_msg} {error_log_file}', shell=True)
         loop_count += 1
         if loop_count > max_looping:
             exit(0)

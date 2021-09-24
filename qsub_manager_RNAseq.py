@@ -19,14 +19,21 @@ GTF_path = r'/home/jun9485/data/GRch37_GTF/Homo_sapiens.GRCh37.87.gtf'
 seq_type = "RNA"
 
 # mode : pp, qc
-run_mode = 'qc' 
+run_mode = 'pp' 
 
 # QC
 qc_output_dir = 'pass'
 qc_threads = 8
 
 INPUT_DIR = r'/home/jun9485/data/RNASEQ/RNAseq_0415/'   # 이 디렉토리에 계속 생성시킬것
-RAW_READS = r'*.fastq.gz'                                                         
+RAW_READS = r'*.fastq.gz'
+
+
+## pbs config
+pbs_N = "RNAseq.hg38"
+pbs_o = INPUT_DIR + r"qsub_log/"
+pbs_j = "oe"
+pbs_l_core = 2
 
 #################################################################################
 
@@ -57,7 +64,7 @@ path_len = len(input_path_list)
 print('입력할 paired end reads의 총 수 =', path_len, '\n')
 print(input_path_list)
 
-exit(0) # path list 확인하고 싶으면 이거 풀기
+# exit(0) # path list 확인하고 싶으면 이거 풀기
 
 for i in range(path_len):
     if run_mode == 'qc':
@@ -73,8 +80,9 @@ for i in range(path_len):
             prefix = INPUT_DIR + read_name
 
             # "ha:b:n:p:i:", ["help", "readA=", "readB=", "readName=", "prefix=", "inputDir="]
-            sp.call(f'qsub ~/src/qsub.1 python processing_RNAseq.py -a {read1} -b {read2} -n {read_name} -p {prefix} -i {INPUT_DIR} \
-                -R {REF_GENOME_DIR} -G {GTF_path} -y {seq_type} &', shell=True)
+            sp.call(f'echo "python processing_RNAseq.py -a {read1} -b {read2} -n {read_name} -p {prefix} -i {INPUT_DIR} \
+                    -R {REF_GENOME_DIR} -G {GTF_path} -y {seq_type}" \
+                    | qsub -N {pbs_N} -o {pbs_o} -j {pbs_j} -l ncpus={pbs_l_core} &', shell=True)
 
 
 
