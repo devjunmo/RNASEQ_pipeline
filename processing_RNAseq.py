@@ -11,8 +11,9 @@ import os
 
 # 디버깅모드시 실행파일은 주석처리, 중간생성물 지우기 여부는 False처리, max_looping=1 처리!!
 
-THREADS = 2                           
+THREADS = 5
 
+SRC_DIR = r'/data_244/src/RNA/RNASEQ_pipeline/'
 
 sorting_order = 'coordinate' # or queryname
 
@@ -89,7 +90,10 @@ mapping_dir = INPUT_DIR + r'mapped/'
 output_prefix = mapping_dir + read_name + '_'
 
 if not os.path.isdir(mapping_dir):
-    os.mkdir(mapping_dir)
+    try:
+        os.mkdir(mapping_dir)
+    except FileExistsError:
+        pass
 
 loop_count = 0
 
@@ -97,7 +101,7 @@ while True:
     try:
         mapping_time = time.time()
         err_msg = f'An_error_occurred_in_mappingStarPE.sh:_Mapping_reads_was_failed.{read_name}'
-        # sp.check_call(fr'sh mappingStarPE.sh {read1} {read2} {THREADS} {REF_GENOME_DIR} {output_prefix}', shell=True)
+        sp.check_call(fr'sh {SRC_DIR}mappingStarPE.sh {read1} {read2} {THREADS} {REF_GENOME_DIR} {output_prefix}', shell=True)
         break
 
     except sp.CalledProcessError as e:
@@ -120,7 +124,7 @@ while True:
     try:
         mapping_time = time.time()
         err_msg = f'An_error_occurred_in_htseq_count.sh:_Counting_reads_was_failed.{read_name}'
-        sp.check_call(fr'sh htseq_count.sh {bam_file} {GTF_FILE_PATH} {output_count}', shell=True)
+        sp.check_call(fr'sh {SRC_DIR}htseq_count.sh {bam_file} {GTF_FILE_PATH} {output_count}', shell=True)
         break
 
     except sp.CalledProcessError as e:
