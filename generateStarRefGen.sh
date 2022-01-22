@@ -16,8 +16,8 @@ case "$3" in
         gtf_path="/home/jun9485/workingDir/b37/gatk-legacy-bundles/b37/GRch37_GTF/Homo_sapiens.GRCh37.87.gtf"
     ;;
     "hg38")
-        input_ref_fasta="/data_244/refGenome/hg38/GDC/GRCh38.d1.vd1.fa"
-        gtf_path="/data_244/refGenome/GRch38_GTF/gencode.v38.primary_assembly.annotation.gtf"
+        input_ref_fasta="/data/refGenome/hg38/GDC/GRCh38.d1.vd1.fa"
+        gtf_path="/data/refGenome/GRch38_GTF/gencode.v38.primary_assembly.annotation.gtf"
     ;;
     *)
         echo "해당 파일의 GTF파일 없음. GTF파일의 경로를 확인하시오."
